@@ -1,0 +1,12 @@
+.footer {
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--primary-color);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: var(--charcoal-gray);
+}
+
+.copyright {
+  font-size: 12px;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "axit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tien Vo Thanh",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.10.2"
+  }
+}

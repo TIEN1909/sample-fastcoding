@@ -1,0 +1,13 @@
+.social {
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+@media (min-width: 768px) {
+  .social {
+    justify-content: center;
+    gap: 30px;
+  }
+}

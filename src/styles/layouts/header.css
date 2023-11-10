@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  background-color: var(--primary-color);
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header-nav-list {
+  gap: 0 45px;
+}
+
+.header-nav-link {
+  color: var(--silver-gray-color);
+}
+
+.header-nav-link:hover {
+  color: var(--orange-color);
+}
+
+@media (min-width: 320px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header-nav-list {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .header-nav-list {
+    display: flex;
+  }
+}

@@ -1,0 +1,14 @@
+.stylish {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  flex-direction: column;
+  background: url("../../assets/images/image.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--secondary-color);
+}
+
+.stylish-title::after {
+  background-color: var(--secondary-color);
+}

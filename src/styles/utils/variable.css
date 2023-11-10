@@ -1,0 +1,27 @@
+:root {
+  /* Font */
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /* End font */
+
+  /* Sizing */
+  --fs-normal: 14px;
+  --fs-small: 15px;
+  --fs-medium: 16px;
+  --fs-large: 20px;
+  --fs-huge: 36px;
+  /* End sizing */
+
+  /* Color */
+  --primary-color: #000000;
+  --secondary-color: #ffffff;
+  --orange-color: #ff8b38;
+  --gray-color: #6f7071;
+  --dark-color: #333333;
+  --charcoal-gray: #86878b;
+  --gainsboro-color: #cccccc;
+  --silver-gray-color: #b0b0b0;
+  --light-gray-color: #f5f5f5;
+  --nickel-gray-color: #d6d6d6;
+  /* End color */
+}

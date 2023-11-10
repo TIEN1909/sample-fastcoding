@@ -1,0 +1,33 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 15px 30px;
+  background-color: transparent;
+  color: var(--secondary-color);
+  font-size: var(--fs-small);
+}
+
+.btn-download {
+  border: 1px solid var(--secondary-color);
+}
+
+.btn-get-started,
+.btn-send-message {
+  border: none;
+  outline: none;
+  background-color: var(--orange-color);
+  color: var(--secondary-color);
+  font-size: var(--fs-small);
+  padding: 20px 0;
+  margin-top: 45px;
+}
+
+.btn-send-message {
+  border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+  .btn-download {
+    margin-top: 55px;
+  }
+}
