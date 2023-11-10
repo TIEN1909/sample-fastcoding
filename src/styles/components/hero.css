@@ -64,7 +64,7 @@
   }
 
   .hero-title {
-    padding-right: 185px;
+    max-width: 285px;
   }
 
   .hero-right {
